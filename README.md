@@ -19,6 +19,12 @@ Este é o repositório para disciplina Infraestrutura de Software que tem como o
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
  
  # Implementação 02
- 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20BREVE&color=YELLOW&style=for-the-badge)
+ * Criação do programa em C do algoritmo de Banker, que é apresentado no livro Operating System Concepts, Silberschatz, A. et al, 10a edição
+1. O NUMBER_OF_CUSTOMERS e o NUMBER_OF_RESOURCES não são fixos, e serão determinados de acordo com a entrada do programa
+2. As entradas são da leitura dos arquivos customer.txt e commands.txt
+3. O arquivo customer.txt contem os clientes, onde o número de linhas indica a quantidade de clientes e a(s) coluna(s) o número de instância para cada tipo de recursos.
+4. O arquivo commands.txt contém uma sequência de comandos que podem começar com RQ (request), RL (realease) ou '*' (que é um visualizador de statuso dos recursos).
+5. Na chamada do programa deverá passar o o número de instância disponível para cada tipo de recursos
+   
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20CONCLUIDO&color=YELLOW&style=for-the-badge)
  
